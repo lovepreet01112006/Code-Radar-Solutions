@@ -11,6 +11,5 @@ int main(){
     }
     else{
         printf("not determined");
-    }
-    return 0;
+    }return 0;
 }
