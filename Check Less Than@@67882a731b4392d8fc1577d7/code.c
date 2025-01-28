@@ -10,7 +10,7 @@ int main(){
         printf("False");
     }
     else{
-        printf("Not Determied")
+        printf("Not Determied");
     }
     return 0;
 }
