@@ -9,5 +9,8 @@ int main(){
     else if(x>y){
         printf("False");
     }
+    else{
+        printf("Not Determied")
+    }
     return 0;
 }
