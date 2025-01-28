@@ -9,6 +9,5 @@ int main(){
     else if(x<y && x>y){
         printf("False");
     }
-    
     return 0;
 }
