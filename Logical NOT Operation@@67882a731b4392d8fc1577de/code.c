@@ -2,6 +2,6 @@
 int main(){
     int x;
     scanf("%d",&x);
-    x>=0? printf("False") : printf("True");
+    !(x>0) printf("True") : printf("False");
     return 0;
 }
