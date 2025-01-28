@@ -2,15 +2,7 @@
 int main(){
     int x;
     int y;
-    scanf("%d %d",&x,&y);
-    if(x>y){
-        printf("True");
-    }
-    else if(x<y){
-        printf("False");
-    }
-    else{
-        printf("Not determined");
-    }
+    scanf("%d %d",&x &y);
+    x>y? printf("True") : printf("False");
     return 0;
 }
