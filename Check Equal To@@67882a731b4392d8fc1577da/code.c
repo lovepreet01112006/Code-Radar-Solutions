@@ -9,8 +9,6 @@ int main(){
     else if(x<y && x>y){
         printf("False");
     }
-    else{
-        printf("Not Determined");
-    }
+    
     return 0;
 }
