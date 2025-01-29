@@ -10,6 +10,6 @@ int main(){
         printf("%d",b);
     }
     else{
-        printf("not determined");
+        printf("Both are equal");
     }return 0;
 }
