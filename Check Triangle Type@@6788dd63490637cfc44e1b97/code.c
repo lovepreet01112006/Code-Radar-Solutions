@@ -2,7 +2,7 @@
 int main(){
     int x,y,z;
     scanf("%d %d %d",&x,&y,&z);
-    if((x+y>c) && (x==y) && (y==z) && (x==z)){
+    if((x+y>c) && (x==y) && (y==z)){
         printf("Equilateral");
     }
     else if((x+y>c) && (x==y || y==c || x==c)){
