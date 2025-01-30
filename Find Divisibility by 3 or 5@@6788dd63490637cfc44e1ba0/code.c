@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int x;
-    scanf("%d",&x)
-    if((x%5==0) && (x%3==0)){
+    scanf("%d",&x);
+    if(x%3==0 && x%5==0){
         printf("Divisible by Both");
     }
     else if(x%3==0){
