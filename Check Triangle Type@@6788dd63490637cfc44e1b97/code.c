@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int x,yy,z;
+    int x,y,z;
     scanf("%d %d %d",&x,&y,&z);
     if((x+y>c) && (x==y==z)){
         printf("Equilateral");
