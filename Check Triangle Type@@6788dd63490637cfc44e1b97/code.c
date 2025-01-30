@@ -5,7 +5,7 @@ int main(){
     if((x+y>c) && (x==y==z)){
         printf("Equilateral");
     }
-    else if(x+y>c && (x==y || y==c || x==c)){
+    else if((x+y>c) && (x==y || y==c || x==c)){
         printf("Isosceles");
     }
     else{
