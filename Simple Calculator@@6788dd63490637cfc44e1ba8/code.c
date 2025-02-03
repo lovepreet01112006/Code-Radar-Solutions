@@ -6,17 +6,17 @@ int main(){
     if(z=='+'){
         printf("%d",x+y);
     }
-    else if(z=='-'){
+    else if(z='-'){
         printf("%d",x-y);
     }
-    else if(z=='*'){
+    else if(z='*'){
         printf("%d",x*y);
     }
-    else if(z=='/'){
+    else if(z='/'){
         printf("%d",x/y);
     }
     else{
-        printf("Invalid");
+        printf("error");
     }
-    return 0;
+    return 0
 }
