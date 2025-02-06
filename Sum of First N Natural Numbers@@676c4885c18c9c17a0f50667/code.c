@@ -7,5 +7,5 @@ int main(){
         sum += y;
     }
     printf("%d",sum);
-    return ;
+    return 0;
 }
