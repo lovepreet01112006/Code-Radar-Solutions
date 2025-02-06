@@ -5,7 +5,7 @@ int main(){
     if(x>='0' && x<='9'){
         printf("Digit");
     }
-    else if((x=='A' , x=='E' , x=='I', x=='O', x=='U')||(x=='a', x=='e', x=='i', x=='o', x=='u')){
+    else if((x=='A' || x=='E'|| x=='I' || x=='O'|| x=='U')||(x=='a' ||x=='e'|| x=='i'||x=='o'|| x=='u')){
         printf("Vowel");
 
     }
