@@ -1,12 +1,21 @@
 #include <stdio.h>
+
 int main(){
-    int x;
-    scanf("%d",&x);
-    if((x%x==0 && x%1==0)){
-        printf("Prime");
+    int notprime = 0;
+    int n;
+    printf("Enter The Number:");
+    scanf("%d",&n);
+    for(int i=2;i<n;i++){
+        if(n%i==0){
+            notprime=1;
+        }
+        
+    }
+    if(notprime){
+        printf("Not Prime",n);
     }
     else{
-        printf("Not Prime");
+        printf("Prime",n);
     }
     return 0;
 }
