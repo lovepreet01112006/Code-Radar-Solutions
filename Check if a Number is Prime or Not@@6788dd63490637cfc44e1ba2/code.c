@@ -7,7 +7,7 @@ int main(){
         isprime=0;
     }
     else{
-        for(int i=2; i<2 ;i++){
+        for(int i=2; i<n ;i++){
             if(n%i==0){
                 isprime=0;
                 break;
