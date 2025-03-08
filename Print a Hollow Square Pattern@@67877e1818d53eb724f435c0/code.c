@@ -8,7 +8,7 @@ int main() {
         for (int j = 1; j <= size; j++) {
             // Print '*' at borders, space inside
             if (i == 1 || i == size || j == 1 || j == size) {
-                printf("* ");
+                printf("*");
             } else {
                 printf("  ");
             }
