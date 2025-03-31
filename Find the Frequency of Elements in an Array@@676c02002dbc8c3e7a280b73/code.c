@@ -1,31 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-
-    for(int i = 0; i<n;i++){
+    int N;
+    scanf("%d",&N);
+    int arr[N];
+    for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-
-    for(int i=0;i<n;i++){
-        int count = 1;
-        for(int j=i+1;j<n;j++){
+    for(int i=0;i<N;i++){
+        int count=1;
+        for(int j=i+1;j<N;j++){
             if(arr[i]==arr[j]){
-                count ++;
-                arr[j] = -1;
+                count++;
+                arr[j]=-1;
             }
         }
+        if(arr[i]!=-1){
+            printf("%d %d\n",arr[i],count);
+        }
     }
-
-    if(arr[i] != -1){
-        printf("%d %d\n",arr[i],count);
-    }
-
     return 0;
-
-
-
-
-
 }
