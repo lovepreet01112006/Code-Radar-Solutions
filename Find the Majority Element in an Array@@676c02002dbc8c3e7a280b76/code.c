@@ -40,7 +40,7 @@ int main(){
         printf("-1");
     }
     else{
-        printf("%d",max_element)
+        printf("%d",max_element);
     }
 
 
