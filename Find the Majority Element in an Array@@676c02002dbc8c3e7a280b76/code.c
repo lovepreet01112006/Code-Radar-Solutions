@@ -26,7 +26,7 @@ int main(){
 
         if(count>max){
             max_element = arr[i];
-            all_same = 0
+            all_same = 0;
         }
 
         else if(count == max){
