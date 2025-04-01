@@ -8,10 +8,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int max = 0;
-    int max_element = arr[i];
+    
     for(int i=0;i<n;i++){
         int count =1;
+        int max = 0;
+        int max_element = arr[i];
         if(arr[i] == -1){
             continue;
         }
