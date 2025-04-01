@@ -25,15 +25,10 @@ int main(){
             max_element = arr[i];
             printf("%d",arr[i]);
         }
-        
 
-
-
-
-
-
-
-
-    }
+        if(count == max){
+            printf("-1")
+        }
+      }
     return 0;
 }
