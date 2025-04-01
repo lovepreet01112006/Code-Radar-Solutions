@@ -10,7 +10,7 @@ int main() {
     }
 
     int max_freq = 0;         // Maximum frequency found
-    int max_element = -1;     // Element with maximum frequency
+    int max_element = arr[0]; // Element with maximum frequency
     int all_same = 1;         // Flag to check if all frequencies are the same
 
     // Traverse the array to calculate the frequency of each element
@@ -35,7 +35,7 @@ int main() {
             max_element = arr[i];
             all_same = 0;  // If we find a higher frequency, not all are the same
         }
-        // If the current frequency matches the max frequency, all elements may have the same frequency
+        // If the current frequency matches the max frequency, set all_same to 1
         else if (count == max_freq) {
             all_same = 1;
         }
