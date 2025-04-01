@@ -27,7 +27,7 @@ int main(){
         }
 
         if(count == max){
-            printf("-1")
+            printf("-1");
         }
       }
     return 0;
