@@ -23,8 +23,9 @@ int main(){
 
         if(count>max){
             max_element = arr[i];
+            printf("%d",arr[i]);
         }
-        printf("%d",arr[i]);
+        
 
 
 
